@@ -10,5 +10,9 @@ num1 = input("Enter your number1 \n")
 num1 = int(num1)
 n = 2
 
+num1 = input("Enter your number1 \n")
+num1 = int(num1)
+n = 2
 
-jk
+
+PyLearning2x
