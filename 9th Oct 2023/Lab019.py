@@ -1,20 +1,20 @@
 # String
 # Bunch of Char
 name = "Milind"
-name = "Trivedi"
+name = "Trivedi"          #name overwritten
 
 # String Functions
-# Python String Immutable in Nature - They can't changed!, One Created
+# Python String Immutable in Nature - They can't changed!, Once Created
 # name[0] = "h" # TypeError: 'str' object does not support item assignment
 
 # capitalize()
 # Returns a copy of the string with its first character capitalized.
-result = name.capitalize()
+result = name.capitalize()  #create a new string
 print(result)
 print(name)
 
 print(id(name))
-print(id(result))
+print(id(result))  #retursn the idendity of the stings
 
 # Upper Case
 result2 = name.upper()
@@ -40,12 +40,10 @@ print(name.swapcase())
 name = "hello world"
 print(name.title())
 
-t1 = "trivedi ji"
+t1 = "trivedi ji"   # t1 is ref or variable name ,  "trivedi ji" which is stored in memory
 t2 = "Amit ji"
 print(t1.capitalize())
 print(t2.upper())
-
-# t1 is ref or variable name ,  "dutta ji" which is stored in memory
 
 name = "trivedi"
 print(len(name))
@@ -60,7 +58,7 @@ name  = "Amit"
 # len -> 1
 print(len(name))
 # index - 0 to len-1
-# p - 0, r - 1, a - 2, m - 3 , 0-4, d -5
+# a - 0, m - 1, i - 2, t - 3
 
 
 #find()
@@ -78,8 +76,8 @@ count = text.count("l")
 print(count)
 
 
-name  = "p d"
-print(len(name))
+name  = "p d"             #length is total number of character
+print(len(name))          #count is total number of character found
 
 
 name   = "trivedi"

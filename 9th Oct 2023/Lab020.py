@@ -1,8 +1,11 @@
 val = None
 name = None
+
+# None is also not a default value for the variables that has other None Type variables.
 # None is not the same as False.
 # None is not an empty string.
 # None is not 0.
+# None will not any memory.
 
 a = None
 b = None
