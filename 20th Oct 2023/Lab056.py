@@ -13,7 +13,7 @@ if number < 0:
     print("Factorial is not possible!! for negative")
 else:
     fact = 1
-    for i in range(1, number + 1): #(0, len-1)
+    for i in range(1, number + 1):  # (0, len-1)  #we do not need to initialize i in python
         fact = fact * i
 
 print("Fact is -> ", fact)
