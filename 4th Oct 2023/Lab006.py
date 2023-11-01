@@ -13,8 +13,8 @@ print(keyword.kwlist)
 # 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while',
 # 'with', 'yield'
 
-#class = "Pramod"
-#class = "Pramod"
+#class = "Milind"
+#class = "Milind"
 # SyntaxError: invalid syntax
 
 name = "class"
@@ -26,3 +26,10 @@ name = False
 
 name  = "Milind"
 #variableName = variableValue
+
+
+
+def __init__(Testing):
+    javaTesting = java
+name1 = Name("ABC")
+name2 = name1
