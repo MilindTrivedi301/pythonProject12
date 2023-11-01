@@ -27,6 +27,6 @@ def sayHello(name):
 
 sayHelloLambda = lambda name: print("Hi your name is ", name)
 
-sayHello("Pramod")
+sayHello("Milind")
 
 sayHelloLambda("Lucky")
