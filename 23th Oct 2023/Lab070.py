@@ -1,4 +1,4 @@
-#lambda function is used to reduce or useful when functions requires another function as its argument
+#lambda function is used to reduce the lines of the code or useful when functions requires another function as its argument
 
 original_str = "Milind"
 reverse_str = lambda original_str : original_str[::-1]
@@ -9,7 +9,7 @@ if reverse_str("Milind") == original_str:
 else:
     print("Not a Palindrome")
 
-
+#-----------------------------------------------------------------------------
 
 add = lambda x,y : x+y
 
@@ -25,6 +25,7 @@ else:
     original_str = "Milind"
 reverse_str = lambda original_str : original_str[::-1]
 
+#-----------------------------------------------------------------------------
 
 if reverse_str("Milind") == original_str:
     print("Palindrome")
