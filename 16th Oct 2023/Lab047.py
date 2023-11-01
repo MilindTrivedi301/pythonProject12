@@ -17,6 +17,4 @@ for x in range(1,10,2):                                  #2 is defined as increm
 
 # range(start,stop, step)
 
-
-
 # *args - all the arguments / unlimited number of arguments
