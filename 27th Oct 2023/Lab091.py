@@ -10,3 +10,9 @@ def multiply_by_10(n):
 op = multiply_by_10(num)
 print(op)
 print("Value of num outside function:", num)
+
+
+
+#scoping of data
+#where num value will only change inside the fuction where the call i made
+#Num value will not change outsde the function

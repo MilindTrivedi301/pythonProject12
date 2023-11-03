@@ -4,18 +4,18 @@ print(set(t))
 
 set1 = {1, 2, 3}
 set2 = {4, 5, 6}
-my_set = set1.union(set2)
+my_set = set1.union(set2)           #print all the value and remove the duplicates
 print(my_set)
 
 set1 = {1, 2, 3, 4, 5}
 set2 = {4, 5, 6, 7, 8}
-my_set = set1.intersection(set2)
+my_set = set1.intersection(set2)    #print all the common value and remove the duplicates
 print(my_set)
 
 
 set1 = {1, 2, 3, 4, 5}
 set2 = {4, 5, 6, 7, 8}
-my_set = set1.difference(set2)
+my_set = set1.difference(set2)          #print not present values in both the sets(removes the common values)
 my_set2 = set2.difference(set1)
 print(my_set)
 print(my_set2)
@@ -23,7 +23,7 @@ print(my_set2)
 
 set1 = {1, 2, 3, 4, 5}
 set2 = {2, 3, 4}
-subset = set2.issubset(set1)
+subset = set2.issubset(set1)        #if values of set 2 is part of other sets
 print(subset)
 
 # l1 = [1,2,3,4,5]
