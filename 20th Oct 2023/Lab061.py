@@ -20,4 +20,5 @@ a= int(input("Enter a\n"))
 b= int(input("Enter b\n"))
 print(sum(a,b))
 
-print(sum(a:45, b:78))
+x = print(sum(a
+x:45, b:78))
