@@ -11,5 +11,6 @@ class Myclass:
 
 obj = Myclass()
 #print(obj.__private_toilet)
-
+#print(obj._protected_attribute)
+#print(obj.public_var)
 # Learn about the Private, Protected and Public variables
