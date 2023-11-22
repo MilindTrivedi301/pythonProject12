@@ -18,7 +18,7 @@ else:
 finally:
     print("I will be always executed!!")
 
-# num 1 - 10, pramod (ValueError)
+# num 1 - 10, milind (ValueError)
 # num 2 - 0
 
 # ZeroDivisionError

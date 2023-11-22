@@ -2,7 +2,7 @@
 
 # list, dic, tuple, set, OrderedDict - Data Type
 
-regular = (1, 2, 3)
+regular = (1, 2, 3)         #regular tuple-unmutable/unchanged
 # regular[0] = 20 # They are not mutable
 
 print(regular[0])
@@ -13,7 +13,7 @@ Person = namedtuple("Person", ["name", "age", "gender"])
 
 
 
-person = Person(name="Pramod", age=34, gender="M")
+person = Person(name="Milind", age=24, gender="M")
 
 print("Name", person.name)
 print("Age", person.age)
@@ -30,5 +30,5 @@ class Person2:
         print(f"Person details {self.name}")
 
 
-person2 = Person2("Pramod", 23, "M")
+person2 = Person2("milind", 23, "M")
 person2.print_details()
