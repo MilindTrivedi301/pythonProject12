@@ -30,5 +30,9 @@ class Person2:
         print(f"Person details {self.name}")
 
 
+<<<<<<< HEAD
 person2 = Person2("milind", 23, "M")
+=======
+person2 = Person2("Milind", 23, "M")
+>>>>>>> e4cab9c4f0ceb2872787ae88c9579623d6c23dd1
 person2.print_details()
