@@ -5,3 +5,9 @@ try:
     print(c)
 except Exception as error:
     print("You are diving the Value of A with zero, Please don't do it", error)
+
+except ValueError as error:
+    print("You are adding invalid Value, Please don't do it", error)
+
+finally:
+    print("I will be executed any how")
