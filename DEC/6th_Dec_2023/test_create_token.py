@@ -20,8 +20,8 @@ def create_booking():
     URL = "https://restful-booker.herokuapp.com/booking"
     headers = {"Content-Type": "application/json"}
     json_payload = {
-        "firstname": "Amit",
-        "lastname": "Brown",
+        "firstname": "Nilesh",
+        "lastname": "Patel",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
@@ -34,6 +34,7 @@ def create_booking():
     print(type(URL))
     print(type(headers))
     print(type(json_payload))
+    print(json_payload)
 
     # Assertions
     assert response.status_code == 200
@@ -66,6 +67,7 @@ def test_put_request():
         "additionalneeds": "Breakfast"
     }
     response = requests.put(url=PUT_URL, headers=headers, json=json_payload)
+    print(json_payload)
     # Assertions
     assert response.status_code == 200
     # get the reponse Body and Verify the JSON, Booking ID is not None

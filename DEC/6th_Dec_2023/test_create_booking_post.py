@@ -19,12 +19,11 @@ import pytest
 @pytest.mark.positive
 def test_create_booking_positive():
     print("Create Booking Testcase")
-    requests.post()
     URL = "https://restful-booker.herokuapp.com/booking"
     headers = {"Content-Type": "application/json"}
     json_payload = {
         "firstname": "Amit",
-        "lastname": "Brown",
+        "lastname": "fast",
         "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
@@ -37,6 +36,7 @@ def test_create_booking_positive():
     print(type(URL))
     print(type(headers))
     print(type(json_payload))
+    print(json_payload)
 
     # Assertions
     assert response.status_code == 200
@@ -45,7 +45,7 @@ def test_create_booking_positive():
     booking_id = data["bookingid"]
     print(booking_id)
     assert data["bookingid"] is not None
-    assert data["booking"]["firstname"] == "Amit", "Failed Message - Incorrect FirstName"
+    assert data["booking"]["firstname"] == "Jim", "Failed Message - Incorrect FirstName"
 
 
 @pytest.mark.negative
@@ -53,7 +53,8 @@ def test_create_booking_negative():
     print("Create Booking Testcase")
     URL = "https://restful-booker.herokuapp.com/booking"
     headers = {"Content-Type": "application/json"}
-    json_payload = {}
+    json_payload = {
+       }
     response = requests.post(url=URL, headers=headers, json=json_payload)
     print(type(URL))
     print(type(headers))
